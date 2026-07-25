@@ -5,7 +5,7 @@ on:
       - opened
   workflow_dispatch: 
   push:
-    branches: [main, master]  
+    branches: [main, master, dev]  
 jobs: 
   deploy:
     runs-on: ubuntu-latest
